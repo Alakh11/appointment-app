@@ -20,10 +20,12 @@ addAppointment(){
     this.appointments.push(newAppointment)
     this.newAppointmentTitle ="";
     this.newAppointmentDate = new Date();
-    alert(this.appointments.length)
+    //alert(this.appointments.length)
   }
- // alert(this.newAppointmentTitle + " " + this.newAppointmentDate)
 }
+ // alert(this.newAppointmentTitle + " " + this.newAppointmentDate)
+deleteAppointment(index: number){
+this.appointments.splice(index, 1)
 
-
+}
 }
