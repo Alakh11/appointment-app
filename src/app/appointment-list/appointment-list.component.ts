@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./appointment-list.component.css']
 })
 export class AppointmentListComponent {
-
+appointment: string = "Take dog for a walk"
 }
