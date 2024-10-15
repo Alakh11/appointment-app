@@ -1,5 +1,5 @@
 export interface Appointment {
     id : number,
-    title : string,
+    title : String,
     date : Date
 }
