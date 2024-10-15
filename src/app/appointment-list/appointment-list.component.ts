@@ -22,7 +22,7 @@ ngOnInit(): void {
 addAppointment(){
   if(this.newAppointmentTitle.trim().length && this.newAppointmentDate){
     let newAppointment : Appointment = {
-      id : Date.now(),
+      //id : Date.now(),
       title : this.newAppointmentTitle,
       date : this.newAppointmentDate
     }
